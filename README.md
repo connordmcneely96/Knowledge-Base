@@ -41,3 +41,7 @@ Do **not** use **Accept both changes** for this block, because it will duplicate
 
 ## Notes
 Avoid using extensionless file routes for this project; serve from `/` via `index.html` to ensure browsers render HTML instead of downloading.
+
+
+## Browser rendering safeguard
+`_headers` sets `Content-Type: text/html; charset=utf-8` and `Content-Disposition: inline` for `/` and `*.html` paths so Cloudflare serves pages for render (not download).
