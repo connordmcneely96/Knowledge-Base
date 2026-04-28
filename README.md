@@ -41,3 +41,7 @@ Do **not** use **Accept both changes** for this block, because it will duplicate
    - Build command: *(leave empty)*
    - Build output directory: `/`
 5. Deploy.
+
+
+## Notes
+If you open `/vibe-coding-kb-v2%20(5)` (without `.html`), `_redirects` now forces it to `/vibe-coding-kb-v2%20(5).html`.
