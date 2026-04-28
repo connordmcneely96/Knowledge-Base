@@ -10,7 +10,7 @@ This repository is set up as a static Cloudflare Pages site.
 
 ## Routing behavior
 Cloudflare Pages edge redirect (`_redirects`) sends `/` to:
-`/vibe-coding-kb-v2%20(5).html`
+`/vibe-coding-kb-v2%20(5)`
 
 `index.html` is also a direct copy of the attached local HTML as a fallback.
 
@@ -44,4 +44,4 @@ Do **not** use **Accept both changes** for this block, because it will duplicate
 
 
 ## Notes
-If you open `/vibe-coding-kb-v2%20(5)` (without `.html`), `_redirects` now forces it to `/vibe-coding-kb-v2%20(5).html`.
+If you open `/vibe-coding-kb-v2%20(5)` (without `.html`), `_redirects` now forces it to `/vibe-coding-kb-v2%20(5)`.
